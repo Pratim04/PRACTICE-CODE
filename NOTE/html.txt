@@ -1,0 +1,94 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="signUp.WebForm1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+    <link href="StyleSheet1.css" rel="stylesheet" />
+    <style type="text/css">
+        .auto-style1 {
+            height: 59px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+      
+        <div id="header">
+            <div id="title">
+                Qmail
+            </div>
+            <div id="login-button">
+                <asp:Button ID="Button1" runat="server" Text="Login" />
+            </div>
+        </div>
+        <div id="r-data-box">
+             
+            <div id="heading">
+                Sign Up
+            </div>
+          
+            <div id="info">
+
+                <table id="text-boxes">
+                    <tr>
+                        <td><asp:TextBox ID="TextBox1" class="texts" runat="server" Placeholder="First Name"></asp:TextBox></td>
+                    </tr>
+                    <tr>
+                        <td><asp:TextBox ID="TextBox2" class="texts" runat="server" Placeholder="Last Name"></asp:TextBox></td>
+                    </tr>
+                    <tr>
+                        <td><asp:TextBox ID="TextBox3" class="texts" runat="server" Placeholder="Username"></asp:TextBox></td>
+                    </tr>
+                    <tr>
+                        <td><asp:TextBox ID="TextBox4" class="texts" runat="server" Placeholder="Password"></asp:TextBox></td>
+                    </tr>
+                    <tr>
+                        <td><asp:TextBox ID="TextBox5" class="texts" runat="server" Placeholder="Confirm Password"></asp:TextBox></td>
+                    </tr>
+                    <tr>
+                        <td><asp:TextBox ID="TextBox6" class="texts" runat="server" Placeholder="Mobile Number"></asp:TextBox></td>
+                    </tr>
+                    <tr>
+                        <td><asp:TextBox ID="TextBox7" class="texts" runat="server" Placeholder="Email id"></asp:TextBox></td>
+                    </tr>
+                    <tr>
+                        <td><asp:TextBox ID="TextBox8" class="texts" runat="server" Placeholder="Date of Birth"></asp:TextBox></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="container"> 
+                                <input type="radio" name="size" id="male" />
+                                <label for="male">Male</label>
+
+                                <input type="radio" name="size" id="female" />
+                                <label for="female">Female</label>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div id="upload-file">
+                                <asp:FileUpload ID="up8" runat="server" />
+                                   <label for="up8" class="upload-label">
+                                        <i class="fa-solid fa-file-arrow-up"></i> Upload File
+                                   </label>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:Button ID="create" runat="server" CssClass="su" Text="Sign Up" OnClick="create_Click"/>
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+        <div class="image"></div>
+    </form>
+</body>
+</html>

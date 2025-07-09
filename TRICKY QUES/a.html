@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sum of Two Numbers</title>
+</head>
+<body>
+  <h1>Sum Calculator</h1>
+  <p>When the page loads, you will be asked to enter two numbers.</p>
+
+  <script>
+    // Ask the user for the first number
+    let num1 = prompt("Enter the first number:");
+
+    // Ask the user for the second number
+    let num2 = prompt("Enter the second number:");
+
+    // Convert the input strings to numbers
+    let number1 = parseFloat(num1);
+    let number2 = parseFloat(num2);
+
+    // Check if both inputs are valid numbers
+    if (!isNaN(number1) && !isNaN(number2)) {
+      // Calculate the sum
+      let sum = number1 + number2;
+
+      // Show the result
+      alert("The sum of the two numbers is: " + sum);
+    } else {
+      alert("Please enter valid numbers.");
+    }
+  </script>
+</body>
+</html>

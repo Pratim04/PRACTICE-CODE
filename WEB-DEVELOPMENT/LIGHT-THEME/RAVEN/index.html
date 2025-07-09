@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RAVEN Mail</title>
+    <link rel="stylesheet" href="raven.css">
+</head>
+<body>
+    <!-- MAIN WRAPPER -->
+    <div class="mainArea">
+
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="TiT">RAVEN</div>
+            <button class="composeBtn" onclick="toggleCompose()">Compose</button>
+            <div class="menu">
+                <a href="#">Inbox</a>
+                <a href="#">Sent</a>
+                <a href="#">Draft</a>
+                <a href="#">Trash</a>
+            </div>
+        </div>
+
+        <!-- Main Content / Inbox -->
+        <div class="inboxView scrollContainer">
+            <div class="mailRow">
+                <div class="sender">OpenAI</div>
+                <div class="subject">Your AI is ready to assist.</div>
+                <div class="time">10:24 AM</div>
+            </div>
+            <div class="mailRow">
+                <div class="sender">GitHub</div>
+                <div class="subject">New Pull Request Merged</div>
+                <div class="time">09:15 AM</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Compose Mail Window -->
+    <div class="composeWindow" id="composeWindow" style="display:none;">
+        <input type="text" placeholder="To:">
+        <input type="text" placeholder="Subject">
+        <textarea rows="8" placeholder="Type your message here..."></textarea>
+        <button class="c1L">Send</button>
+    </div>
+
+    <script>
+        function toggleCompose() {
+            const compose = document.getElementById('composeWindow');
+            if (compose.style.display === 'none' || compose.style.display === '') {
+                compose.style.display = 'flex';
+            } else {
+                compose.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>

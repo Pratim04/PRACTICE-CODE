@@ -1,0 +1,151 @@
+1. Basics of C++ ✅
+
+   i. Introduction to C++
+   ii. Structure of a C++ program (headers,
+       main function, etc.)
+   iii. Input and output (cin, cout)
+   iv. Comments (single-line and multi-line)
+    v. Variables and data types (int, float, char, etc.)
+   vi. Constants (const keyword)
+   vii. Type modifiers (signed, unsigned, long, short)
+---------------------------------------------------------
+2. Operators in C++ ✅
+
+     i. Arithmetic operators (+, -, *, /, %)
+    ii. Relational operators (==, !=, >, <, >=, <=)
+    iii. Logical operators (&&, ||, !)
+    iv. Bitwise operators (&, |, ^, <<, >>)
+     v. Assignment operators (=, +=, -=, etc.)
+    vi. Increment and decrement operators (++ and --)
+    vii. Conditional (ternary) operator (?:)
+   viii. Type casting operators
+---------------------------------------------------------
+3. Control Flow ✅
+
+     i. Decision-making statements (if, if-else, nested
+        if, switch-case)
+    ii. Loops (for, while, do-while)
+    iii. Break and continue statements
+    iv. Goto statement (though not recommended)
+---------------------------------------------------------
+4. Functions
+
+    i. Function declaration and definition
+    ii. Function overloading
+    iii. Inline functions
+    iv. Default arguments
+    v. Recursion
+    vi. Pass by value and pass by reference
+    vii. Return by reference
+---------------------------------------------------------
+5. Arrays and Strings
+
+    i. One-dimensional arrays
+    ii. Multi-dimensional arrays
+    iii. Character arrays (C-strings)
+    iv. String handling functions (strlen, strcpy,
+        strcmp, etc.)
+    v. Introduction to std::string
+---------------------------------------------------------
+6. Pointers
+
+    i. Introduction to pointers
+   ii. Pointer arithmetic
+   iii. Null pointers
+   iv. Pointers and arrays
+    v. Pointers to functions
+   vi. Pointers to pointers (double pointers)
+---------------------------------------------------------
+7. Dynamic Memory Allocation
+
+   i. new and delete operators
+   ii. malloc, calloc, realloc, and free (C-style memory
+      allocation)
+  iii. Dangling pointers and memory leaks
+---------------------------------------------------------
+8. Object-Oriented Programming (OOP)
+
+    i. Classes and objects
+   ii. Access specifiers (public, private, protected)
+  iii. Constructors and destructors
+  iv. Constructor overloading
+   v. Copy constructor
+  vi. this pointer
+  vii. Static members (variables and methods)
+  viii. Friend functions and classes
+---------------------------------------------------------
+9. Inheritance
+
+    i. Single inheritance
+    ii. Multiple inheritance
+   iii. Multilevel inheritance
+   iv. Hierarchical inheritance
+    v. Hybrid inheritance
+   vi. Virtual base classes
+---------------------------------------------------------
+10. Polymorphism
+
+      i. Function overloading
+      ii. Operator overloading
+     iii. Compile-time (static) polymorphism
+     iv. Runtime (dynamic) polymorphism
+      v. Virtual functions
+     vi. Pure virtual functions and abstract classes
+---------------------------------------------------------
+11. Templates
+
+     i. Function templates
+     ii. Class templates
+    iii. Template specialization
+    iv. Variadic templates (C++11)
+---------------------------------------------------------
+12. Exception Handling
+
+      i. try, catch, throw blocks
+      ii. Multiple catch blocks
+     iii. Nested try-catch
+     iv. Standard exceptions 
+         (std::exception,std::out_of_range, etc.)
+---------------------------------------------------------
+13. Standard Template Library (STL)
+
+      i. Containers (vector, list, deque, stack, queue,
+         map, set, etc.)
+      ii. Iterators
+     iii. Algorithms (sort, find, binary search, etc.)
+     iv. Function objects (functors)
+      v. Lambda expressions (C++11)
+---------------------------------------------------------
+14. File Handling
+
+      i. File streams (ifstream, ofstream, fstream)
+      ii. File modes (read, write, append)
+      iii. Reading and writing data
+      iv. Binary file operations
+---------------------------------------------------------
+15. Advanced C++ (Modern C++)
+
+     i. Smart pointers (unique_ptr, shared_ptr,
+        weak_ptr)
+    ii. Move semantics and rvalue references (C++11)
+    iii. Lambda functions
+    iv. std::thread for multithreading
+     v. constexpr (C++11)
+     vi. auto and decltype keywords
+    vii. Range-based for loops (C++11)
+    viii. std::optional (C++17)
+     ix. Concepts (C++20)
+----------------------------------------------------------
+16. Miscellaneous Concepts
+
+      i. Preprocessor directives (#include, #define,
+         #ifdef, etc.)
+     ii. Namespaces
+     iii. Type casting (static_cast, dynamic_cast,
+          const_cast, reinterpret_cast)
+     iv. Enumerations (enum, enum class)
+      v. Unions and structures
+     vi. Bit fields
+---------------------------------------------------------
+ 
+                          ------- END -------

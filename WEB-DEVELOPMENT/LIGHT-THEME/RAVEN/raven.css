@@ -1,0 +1,164 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: #f0f0f3;
+    color: #333;
+    height: 100vh;
+    display: flex;
+}
+
+/* Utility neumorphic card look */
+.neumorphic {
+    background: #e0e0e0;
+    box-shadow: 7px 7px 15px #bebebe, -7px -7px 15px #ffffff;
+    border-radius: 16px;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    padding: 20px;
+    background: #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: inset 5px 5px 10px #c5c5c5, inset -5px -5px 10px #f7f7f7;
+}
+
+/* Compose button */
+.composeBtn {
+    background: #f0f0f3;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 12px;
+    box-shadow: 3px 3px 8px #ccc, -3px -3px 8px #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.composeBtn:hover {
+    box-shadow: inset 3px 3px 8px #ccc, inset -3px -3px 8px #fff;
+}
+
+/* Menu links */
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px #ccc, -3px -3px 6px #fff;
+    background: #e0e0e0;
+}
+
+.menu a:hover {
+    box-shadow: inset 3px 3px 6px #ccc, inset -3px -3px 6px #fff;
+}
+
+/* Main Area */
+.mainArea {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+}
+
+/* Compose Window */
+.composeWindow {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background: #e0e0e0;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 7px 7px 15px #bebebe, -7px -7px 15px #ffffff;
+}
+
+.composeWindow input,
+.composeWindow textarea {
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    background: #f0f0f3;
+    box-shadow: inset 3px 3px 6px #ccc, inset -3px -3px 6px #fff;
+    resize: none;
+}
+
+.c1L {
+    align-self: flex-end;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 12px;
+    background: #f0f0f3;
+    font-weight: bold;
+    box-shadow: 3px 3px 8px #ccc, -3px -3px 8px #fff;
+    cursor: pointer;
+}
+
+.c1L:hover {
+    box-shadow: inset 3px 3px 8px #ccc, inset -3px -3px 8px #fff;
+}
+
+/* Inbox View */
+.inboxView {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Single Mail Row */
+.mailRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #e0e0e0;
+    padding: 15px 20px;
+    border-radius: 14px;
+    box-shadow: 3px 3px 8px #bebebe, -3px -3px 8px #ffffff;
+    transition: background 0.2s;
+}
+
+.mailRow:hover {
+    background: #f8f8fb;
+}
+
+/* Row sections */
+.mailRow .sender {
+    font-weight: bold;
+    color: #444;
+}
+
+.mailRow .subject {
+    flex: 1;
+    margin: 0 15px;
+    color: #555;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.mailRow .time {
+    font-size: 0.85em;
+    color: #777;
+}
+
+/* Scroll container if needed */
+.scrollContainer {
+    overflow-y: auto;
+    max-height: 70vh;
+}
