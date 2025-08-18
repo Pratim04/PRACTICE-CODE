@@ -5,3 +5,4 @@
 4. Scope (Global , Functional , Block)
 5. Reassigned but not Redeclared
 6. Temporal Dead Zone
+7. Data Types & System Types
