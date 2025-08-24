@@ -33,4 +33,5 @@
 # Phase II (23/08/25 - 00/00/00) ? Days
 
 1. DOM
-2. 
+2. Events and Event Handling
+3. 
