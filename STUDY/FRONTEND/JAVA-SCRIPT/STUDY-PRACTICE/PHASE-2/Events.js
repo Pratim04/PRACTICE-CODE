@@ -17,7 +17,23 @@ ip.addEventListener("input",function(e){
 
 // Change Event
 let sel = document.querySelector(".EL");
+let device = document.querySelector("#headDevice");
 
 sel.addEventListener("change",function (dets) {
-    console.log(dets.target.value);
+    device.textContent = `${dets.target.value} Device Selected`;
 });
+
+// Task : We'll set a event on window so when we type on window that will change accordingly
+
+let n = document.querySelector("#CH");
+
+window.addEventListener("keydown",function (po) {
+    // console.dir(po);
+    if (po.key === " ") {
+        n.textContent = "SpaceBar";
+    }
+    else {
+        n.textContent = po.key;
+    }
+});
+
