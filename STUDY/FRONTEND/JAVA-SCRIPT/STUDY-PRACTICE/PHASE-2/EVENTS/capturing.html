@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #d1 {
+        background-color: bisque;
+        width: 400px;
+        height: 400px;
+    }
+
+    #d2 { 
+        background-color: green;
+        width: 300px;
+        height: 300px;
+    }
+
+    #d3 {
+        background-color: red;
+        width: 200px;
+        height: 200px;
+    }
+
+    #b1 {
+        background-color: #555;
+        width: 90px;
+        height: 40px;
+        border-radius: 5px;
+    }
+
+    #d1,#d2,#d3 {
+        gap: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        font-weight: 600;
+    }
+</style>
+<body>
+    <script type="module" src="capturing.js"></script>
+    <div id="d1">C
+        <div id="d2">B
+            <div id="d3">A
+                <input id="b1" type="button" value="button">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
