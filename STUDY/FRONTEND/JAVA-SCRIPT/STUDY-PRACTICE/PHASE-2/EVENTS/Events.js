@@ -75,16 +75,15 @@ F.addEventListener("submit",function (e) {
     profile.classList.add("profile");
 
     card.appendChild(profile);
-    console.log(card);
 
     let img = document.createElement("img");
     img.setAttribute("src",inp[0].value);
-        let h3 = document.createElement("h3");
-        h3.textContent = inp[1].value;
-        let h5 = document.createElement("h5");
-        h5.textContent = inp[2].value;
-        let p = document.createElement("p");
-        p.textContent = inp[3].value;
+    let h3 = document.createElement("h3");
+    h3.textContent = inp[1].value;
+    let h5 = document.createElement("h5");
+    h5.textContent = inp[2].value;
+    let p = document.createElement("p");
+    p.textContent = inp[3].value;
 
         profile.appendChild(img);
         card.appendChild(profile);
