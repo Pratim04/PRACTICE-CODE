@@ -1,5 +1,5 @@
 let count = 0;
-let second = 20;
+let second = 1;
 let per = document.querySelector(".percentage");
 let prog = document.querySelector(".progress-fill");
 let Dbtn = document.querySelector(".download-btn");

@@ -34,4 +34,6 @@
 
 1. DOM
 2. Events and Event Handling
-3. 
+3. Forms and Form Validation
+4. Timers And Intervals
+5. Local Storage And Session Storage And Cookies

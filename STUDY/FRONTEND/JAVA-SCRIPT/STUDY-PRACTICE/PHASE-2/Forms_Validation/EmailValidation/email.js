@@ -32,7 +32,4 @@ form.addEventListener("submit",function (dets) {
     else {
         document.querySelector("#resultMessage").textContent = ""
     }
-
-
-
 });
