@@ -37,3 +37,4 @@
 3. Forms and Form Validation
 4. Timers And Intervals
 5. Local Storage And Session Storage And Cookies
+6. PROJECTS (FINAL)
