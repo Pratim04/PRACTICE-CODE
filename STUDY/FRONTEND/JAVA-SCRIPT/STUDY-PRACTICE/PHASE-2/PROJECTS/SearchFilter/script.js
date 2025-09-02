@@ -169,6 +169,7 @@ function showUsers(arr) {
         const img = document.createElement("img");
         img.src = user.pic;
         img.classList.add("bg-img");
+        img.loading = "lazy";
 
         // Blurred layer
         const blurredLayer = document.createElement("div");

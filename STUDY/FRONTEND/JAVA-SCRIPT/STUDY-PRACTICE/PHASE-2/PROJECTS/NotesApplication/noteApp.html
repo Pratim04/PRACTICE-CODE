@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card UI</title>
+    <link rel="stylesheet" href="noteApp.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Side buttons -->
+        <div class="side-buttons">
+            <button id="add-note">+</button>
+            <button id="moveUp">↑</button>
+            <button id="moveDown">↓</button>
+        </div>
+
+        <!-- Profile Card -->
+        <div class="stack">
+
+            <!-- Colors -->
+
+        </div>
+        <div class="colors-wrapper">
+        <div class="colors">
+            <span class="black"></span>
+            <span class="purple"></span>
+            <span class="orange"></span>
+            <span class="green"></span>
+        </div>
+        </div>
+    </div>
+    <!-- New Call Card (hidden by default) -->
+    <form>
+        <div class="center-wrapper">
+            <div class="new-call">
+                <h2>New Call</h2>
+
+                <label for="imgUrl">Image URL</label>
+                <input type="text" id="imgUrl" placeholder="https://example.com/photo.jpg">
+
+                <label for="fullName">Full Name</label>
+                <input type="text" id="fullName" placeholder="Enter full name">
+
+                <label for="homeTown">Home Town</label>
+                <input type="text" id="homeTown" placeholder="Enter home town">
+
+                <label for="purpose">Purpose</label>
+                <input type="text" id="purpose" placeholder="e.g., Quick appointment note">
+
+                <label>Category</label>
+                <div class="categories">
+                    <label class="tag red">
+                        <input type="radio" name="category" value="Emergency"> Emergency
+                    </label>
+                    <label class="tag orange">
+                        <input type="radio" name="category" value="Important"> Important
+                    </label>
+                    <label class="tag purple">
+                        <input type="radio" name="category" value="Urgent"> Urgent
+                    </label>
+                    <label class="tag gray">
+                        <input type="radio" name="category" value="No Rush"> No Rush
+                    </label>
+                </div>
+
+                <button type="submit" class="create-btn">Create Note</button>
+                <button type="button" class="close-btn">Close</button>
+            </div>
+        </div>
+    </form>
+
+    <script type="module" src="noteApp.js"></script>
+</body>
+
+</html>
