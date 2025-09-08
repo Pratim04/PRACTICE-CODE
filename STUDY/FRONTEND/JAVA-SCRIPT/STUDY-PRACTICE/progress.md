@@ -30,7 +30,7 @@
 26. Destructuring , spread operator 
 27. Objects
 
-# Phase II (23/08/25 - 00/00/00) ? Days
+# Phase II (23/08/25 - 30/08/25) ? Days
 
 1. DOM
 2. Events and Event Handling
