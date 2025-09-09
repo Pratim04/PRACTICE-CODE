@@ -1,19 +1,12 @@
-import React from 'react'
-import { Route,Routes } from 'react-router-dom'
-import About from './pages/About';
-import Home from './pages/Home';
-import Product from './pages/Product';
-
-
+import React, { useContext } from 'react'
+import { dataContext } from './contex/UserContext'
 
 const App = () => {
+  const data = useContext(dataContext)
+  console.log(data)
   return (
     <div>
-      <Routes>
-        <Route path='/' element = {<Home/>} />
-        <Route path='/about' element = {<About/>} />
-        <Route path='/product' element = {<Product/>} />
-      </Routes>
+      <h1>This is app {data}</h1>
     </div>
   )
 }
