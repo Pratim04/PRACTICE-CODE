@@ -3,5 +3,12 @@
         "conio.h": "c",
         "stdio.h": "c",
         "stdlib.h": "c"
-    }
+    },
+    "python-envs.pythonProjects": [
+        {
+            "path": "",
+            "envManager": "ms-python.python:system",
+            "packageManager": "ms-python.python:pip"
+        }
+    ]
 }
