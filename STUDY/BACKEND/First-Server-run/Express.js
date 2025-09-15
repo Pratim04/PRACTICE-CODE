@@ -1,6 +1,9 @@
 const express = require('express');
-const app = express();
 const morgan = require('morgan');
+const app = express();
+const dbConnection = require('./config/db');
+const userModel = require('./models/user');
+
 
 app.use(morgan('dev'));
 
@@ -34,4 +37,4 @@ app.post('/get-form-data',(req,res)=>{
     console.log(req.body)
     res.send('data received');
 });
-app.listen(5000);
+app.listen(5000,console.log('Server Running'));
