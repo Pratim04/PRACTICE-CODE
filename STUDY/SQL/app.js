@@ -9,7 +9,7 @@ const db = await mysql.createConnection({
 });
 console.log("sql connected");
 
-// //? 2: we need to create a db
+//? 2: we need to create a db
 
 // await db.execute(`create database mysql_db`);
 // console.log(await db.execute("SHOW DATABASES"));
@@ -42,7 +42,7 @@ console.log("sql connected");
 // ]);
 
 //* For multiple datas
-// const vlaues = [
+//  const vlaues = [
 //     ['Arjun', 'arjun01@gmail.com'],
 //     ['Aarav', 'aarav123@gmail.com'],
 //     ['Ishita', 'ishita.k@outlook.com'],
