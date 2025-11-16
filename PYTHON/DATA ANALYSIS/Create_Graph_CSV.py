@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 dataCSV = pd.read_csv('sales_data.csv')
 
-# print(dataCSV)
+print(dataCSV)
 
 x = dataCSV['Month']
 y = dataCSV['Sales']
