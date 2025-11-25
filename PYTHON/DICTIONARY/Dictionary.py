@@ -4,4 +4,5 @@ info = {
     "learning" : "Python",
 }
 
-print(info)
+info["age"] = "21"
+print(info["age"])
