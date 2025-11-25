@@ -70,4 +70,3 @@
 - Basic error handling in place
 - Authentication setup (if needed)
 - UI is clean and responsive
-

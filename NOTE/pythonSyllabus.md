@@ -1,6 +1,7 @@
 # Python Syllabus
 
 ## Introduction to Python Programming
+
 - Python variables, expressions, statements
 - Variables
 - Keywords
@@ -14,6 +15,7 @@
 - Example programs
 
 ## Functions
+
 - Type conversion function
 - Math functions
 - Composition of functions
@@ -24,6 +26,7 @@
 - Example programs
 
 ## Iterators & Functions
+
 - Control flow
 - Iterators: Conditions and iterations
 - Modulus operator
@@ -38,6 +41,7 @@
 - Python Recursive Function
 
 ## Strings
+
 - Accessing values in string
 - Updating strings
 - Slicing strings
@@ -45,6 +49,7 @@
 - Example programs
 
 ## List
+
 - Introduction
 - Traversal
 - Operations
@@ -55,19 +60,23 @@
 - Example program
 
 ## Dictionaries
+
 - Introduction
 - Brief idea of dictionaries & lists
 
 ## Tuples
+
 - Introduction
 - Brief idea of lists & tuples
 - Brief idea of dictionaries & tuples
 
 ## Python Modules & Packages
+
 - Python Modules
 - Python Packages
 
 ## Object-Oriented Programming
+
 - Creating class
 - Instance objects
 - Accessing attributes
