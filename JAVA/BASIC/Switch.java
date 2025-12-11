@@ -20,6 +20,7 @@ public class Switch {
             default:
                 System.out.println("Default case");
         }
+        
         sc.close();
     }
 }
